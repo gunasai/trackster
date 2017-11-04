@@ -6,7 +6,7 @@ body {
   min-width: 570px;
   font-family: "Work Sans", sans-serif;
   line-height: 2.5;
-  color: #4a4a4a;
+  color: #black;
 }
 
 input:focus {
@@ -21,14 +21,14 @@ a:focus {
 
 .header {
   padding: 2.75rem 0;
-  background-color: #22013f;
+  background-color: #0C0102;
 }
 
 .header h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Righteous", cursive;
-  color: #ff00ab;
+  color: white;
 }
 
 .header input {
@@ -40,7 +40,7 @@ a:focus {
   padding: .5rem;
   border-radius: 19px;
   text-align: center;
-  background-color: #ff00ab;
+  background-color: #1db954;
   color: #22013f;
 }
 
@@ -50,7 +50,7 @@ a:focus {
 }
 
 .attributes {
-  background-color: #6800ff;
+  background-color: #1db954;
   font-weight: 500;
   color: #ffffff;
 }
@@ -64,6 +64,7 @@ a:focus {
 
 .track:hover {
   background-color: #f0eef3;
+  font-weight: bold;
 }
 
 .track div {
@@ -74,7 +75,7 @@ a:focus {
 .play-button a {
   display: flex;
   align-items: center;
-  color: #ff00ab;
+  color: #1db954;
 }
 
 .play-button a:hover {
