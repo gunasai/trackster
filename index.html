@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>trackster</title>
-  <link rel="icon" href="favicon.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -13,8 +12,8 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-  <script type="text/javascript" src="/scripts/js/trackster.js"></script>
-  <script type="text/javascript" src="/scripts/js/tests.js"></script>
+  <script type="text/javascript" src="scripts/js/trackster.js"></script>
+  <script type="text/javascript" src="scripts/js/tests.js"></script>
 </head>
 <body>
   <div class="container-fluid">
@@ -26,8 +25,10 @@
     <div class="row attributes">
       <div class="col-xs-4 col-xs-offset-2 attribute">Song</div>
       <div class="col-xs-2 attribute">Artist</div>
-      <div class="col-xs-2 attribute">Artwork</div>
+      <div class="col-xs-2 attribute">Album Art</div>
       <div class="col-xs-2 attribute">Length</div>
+    </div>
+    <div class="container-fluid" id="track-list">
     </div>
   </div>
 </body>
